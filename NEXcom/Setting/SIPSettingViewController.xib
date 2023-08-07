@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SIPSettingViewController" customModule="NEXcom" customModuleProvider="target">
+            <connections>
+                <outlet property="btn_save" destination="98G-L9-TIk" id="Nd4-CW-1Fu"/>
+                <outlet property="v_main" destination="R95-3M-bXX" id="Kbw-Wg-EQK"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="98G-L9-TIk">
+                    <rect key="frame" x="20" y="575" width="335" height="48"/>
+                    <color key="backgroundColor" red="0.38039215686274508" green="0.38431372549019605" blue="0.38823529411764707" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="zYw-OM-OVB"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="保存">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="nhLocKey" value="save"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="saveBtnAction:" destination="-1" eventType="touchUpInside" id="pIH-qu-xkw"/>
+                    </connections>
+                </button>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="R95-3M-bXX">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="575"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="EAs-G7-f9k"/>
+            <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+            <constraints>
+                <constraint firstItem="98G-L9-TIk" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="F1R-x5-8pR"/>
+                <constraint firstAttribute="bottom" secondItem="98G-L9-TIk" secondAttribute="bottom" constant="44" id="Mt1-N6-5jw"/>
+                <constraint firstItem="R95-3M-bXX" firstAttribute="top" secondItem="EAs-G7-f9k" secondAttribute="top" id="Oel-IL-FsW"/>
+                <constraint firstItem="EAs-G7-f9k" firstAttribute="trailing" secondItem="R95-3M-bXX" secondAttribute="trailing" id="f6h-GP-ic5"/>
+                <constraint firstItem="R95-3M-bXX" firstAttribute="leading" secondItem="EAs-G7-f9k" secondAttribute="leading" id="gPF-Zn-7Zk"/>
+                <constraint firstItem="98G-L9-TIk" firstAttribute="top" secondItem="R95-3M-bXX" secondAttribute="bottom" id="hfV-XW-4f9"/>
+                <constraint firstAttribute="trailing" secondItem="98G-L9-TIk" secondAttribute="trailing" constant="20" id="vxe-Kn-SmV"/>
+            </constraints>
+            <point key="canvasLocation" x="131.8840579710145" y="77.678571428571431"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  NEXcom
+
+  Created by csh on 2023/3/17.
+  
+*/
+"NSMicrophoneUsageDescription" = "The app need the access of microphone when record.";
+"NSCameraUsageDescription" = "The app need the access of camera when take photo.";
+//"NSRemoteNotificationUsageDescription" = "The app need the access of camera when take photo.";

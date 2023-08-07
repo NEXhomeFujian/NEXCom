@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  NEXcom
+
+  Created by csh on 2023/3/17.
+  
+*/
+"NSMicrophoneUsageDescription" = "需要訪問您的麥克風使用權限";
+"NSCameraUsageDescription" = "需要訪問您的相機使用權限";
+//"NSRemoteNotificationUsageDescription" = "需要訪問您的推送通知使用權限";

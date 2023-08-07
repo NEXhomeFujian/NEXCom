@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="InfoCallTableViewCell" customModule="NEXcom" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="61"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="61"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mbS-Ng-75L">
+                        <rect key="frame" x="40" y="10.5" width="120" height="40"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="[语音通话]" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8qD-gI-woo">
+                                <rect key="frame" x="0.0" y="0.0" width="72.5" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="昨天17:22" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bCS-Xd-GMN">
+                                <rect key="frame" x="0.0" y="24" width="59.5" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="bCS-Xd-GMN" firstAttribute="leading" secondItem="mbS-Ng-75L" secondAttribute="leading" id="0wv-CU-6Cl"/>
+                            <constraint firstAttribute="height" constant="40" id="FkX-S6-SI2"/>
+                            <constraint firstItem="8qD-gI-woo" firstAttribute="leading" secondItem="mbS-Ng-75L" secondAttribute="leading" id="HTf-ag-RoM"/>
+                            <constraint firstAttribute="bottom" secondItem="bCS-Xd-GMN" secondAttribute="bottom" id="IR6-0Y-YQ5"/>
+                            <constraint firstAttribute="width" constant="120" id="JW3-ls-vE4"/>
+                            <constraint firstItem="8qD-gI-woo" firstAttribute="top" secondItem="mbS-Ng-75L" secondAttribute="top" id="l3m-0h-odt"/>
+                        </constraints>
+                    </view>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IncomingCall" translatesAutoresizingMaskIntoConstraints="NO" id="muH-LC-hJV">
+                        <rect key="frame" x="14" y="23.5" width="14" height="14"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="14" id="9Ae-nk-sj1"/>
+                            <constraint firstAttribute="height" constant="14" id="VFm-6v-3oO"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="153分41秒" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yH5-rJ-6hK">
+                        <rect key="frame" x="232.5" y="22" width="67.5" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="yH5-rJ-6hK" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="JCD-sc-D4p"/>
+                    <constraint firstItem="muH-LC-hJV" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="14" id="JeW-mY-jPk"/>
+                    <constraint firstItem="mbS-Ng-75L" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="KWC-A7-ZCr"/>
+                    <constraint firstItem="muH-LC-hJV" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="LyY-6C-0to"/>
+                    <constraint firstItem="mbS-Ng-75L" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="40" id="QYE-Z1-obC"/>
+                    <constraint firstAttribute="trailing" secondItem="yH5-rJ-6hK" secondAttribute="trailing" constant="20" id="nT0-Q0-5Uv"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="ima_coming" destination="muH-LC-hJV" id="5RA-uO-Vkd"/>
+                <outlet property="l_callTime" destination="bCS-Xd-GMN" id="65C-VI-bBa"/>
+                <outlet property="l_callType" destination="8qD-gI-woo" id="KT9-MZ-Xba"/>
+                <outlet property="l_duration" destination="yH5-rJ-6hK" id="SV4-dj-c6W"/>
+            </connections>
+            <point key="canvasLocation" x="132" y="80"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="IncomingCall" width="14" height="14"/>
+    </resources>
+</document>

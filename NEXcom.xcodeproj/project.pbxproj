@@ -1,0 +1,885 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55FD6EB6F3700E78A1187B22 /* Pods_NEXcom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 512C11AF5DD4DA158629D54C /* Pods_NEXcom.framework */; };
+		5C04ADCB290288FC00D391B9 /* NHVoipRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C04ADCA290288FC00D391B9 /* NHVoipRequest.swift */; };
+		5C104DD5291F77AF000D2CD8 /* CallingViewCtrl.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7732CC828B5CE7A00F62FAD /* CallingViewCtrl.xib */; };
+		5C16B99628E2874E0054C5B1 /* ConInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C16B99428E2874E0054C5B1 /* ConInfoViewController.swift */; };
+		5C16B99728E2874E0054C5B1 /* ConInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C16B99528E2874E0054C5B1 /* ConInfoViewController.xib */; };
+		5C3972F628D17152005C3835 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3972F428D17152005C3835 /* LoginViewController.swift */; };
+		5C3972F728D17152005C3835 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C3972F528D17152005C3835 /* LoginViewController.xib */; };
+		5C3972FE28D17367005C3835 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3972F828D17367005C3835 /* FirstViewController.swift */; };
+		5C3972FF28D17367005C3835 /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C3972F928D17367005C3835 /* AboutViewController.xib */; };
+		5C39730128D17367005C3835 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C3972FB28D17367005C3835 /* FirstViewController.xib */; };
+		5C39730328D17367005C3835 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3972FD28D17367005C3835 /* AboutViewController.swift */; };
+		5C39730628D1E33E005C3835 /* SIPSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C39730428D1E33E005C3835 /* SIPSettingViewController.swift */; };
+		5C39730728D1E33E005C3835 /* SIPSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C39730528D1E33E005C3835 /* SIPSettingViewController.xib */; };
+		5C3ED0372910CF6E001054DB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C3ED0392910CF6E001054DB /* Localizable.strings */; };
+		5C5294B129C4693C00EABDCC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C5294B429C4693C00EABDCC /* InfoPlist.strings */; };
+		5C61279029AC4279004A15ED /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 5C61278F29AC4279004A15ED /* data.json */; };
+		5CAB6C0428F26C14001EE864 /* ContactsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAB6C0228F26C14001EE864 /* ContactsTableViewCell.swift */; };
+		5CAB6C0528F26C14001EE864 /* ContactsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CAB6C0328F26C14001EE864 /* ContactsTableViewCell.xib */; };
+		5CAB6C0828F2760E001EE864 /* AddContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAB6C0628F2760E001EE864 /* AddContactsViewController.swift */; };
+		5CAB6C0928F2760E001EE864 /* AddContactsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CAB6C0728F2760E001EE864 /* AddContactsViewController.xib */; };
+		5CB1C51C2A67904900FC5142 /* ring.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5CB1C51B2A67904900FC5142 /* ring.wav */; };
+		5CBA197628D463D500D1FAC8 /* SetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBA197428D463D500D1FAC8 /* SetTableViewCell.swift */; };
+		5CBA197728D463D500D1FAC8 /* SetTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CBA197528D463D500D1FAC8 /* SetTableViewCell.xib */; };
+		5CBA197928D48D4900D1FAC8 /* NHVoipCallEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBA197828D48D4900D1FAC8 /* NHVoipCallEx.swift */; };
+		5CBA197C28D7FD1600D1FAC8 /* NEXcom.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CBA197B28D7FD1600D1FAC8 /* NEXcom.m */; };
+		5CBA198128D8055A00D1FAC8 /* FMDBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBA198028D8055A00D1FAC8 /* FMDBManager.swift */; };
+		5CBA198828D83FBB00D1FAC8 /* TypeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBA198628D83FBB00D1FAC8 /* TypeTableViewCell.swift */; };
+		5CBA198928D83FBB00D1FAC8 /* TypeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CBA198728D83FBB00D1FAC8 /* TypeTableViewCell.xib */; };
+		5CBA198C28D95C9600D1FAC8 /* SIPSet1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBA198A28D95C9600D1FAC8 /* SIPSet1TableViewCell.swift */; };
+		5CBA198D28D95C9600D1FAC8 /* SIPSet1TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CBA198B28D95C9600D1FAC8 /* SIPSet1TableViewCell.xib */; };
+		5CBA199028D95CE700D1FAC8 /* SIPSet2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBA198E28D95CE700D1FAC8 /* SIPSet2TableViewCell.swift */; };
+		5CBA199128D95CE700D1FAC8 /* SIPSet2TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CBA198F28D95CE700D1FAC8 /* SIPSet2TableViewCell.xib */; };
+		5CBA199428D95CFC00D1FAC8 /* SIPSet3TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBA199228D95CFC00D1FAC8 /* SIPSet3TableViewCell.swift */; };
+		5CBA199528D95CFC00D1FAC8 /* SIPSet3TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CBA199328D95CFC00D1FAC8 /* SIPSet3TableViewCell.xib */; };
+		5CBA199828D9A47A00D1FAC8 /* CallOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBA199628D9A47A00D1FAC8 /* CallOutViewController.swift */; };
+		5CBA199928D9A47A00D1FAC8 /* CallOutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CBA199728D9A47A00D1FAC8 /* CallOutViewController.xib */; };
+		5CBA199C28DAF11600D1FAC8 /* StringEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBA199B28DAF11600D1FAC8 /* StringEx.swift */; };
+		5CBA19A428DC56C700D1FAC8 /* RecentCallTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBA19A228DC56C700D1FAC8 /* RecentCallTableViewCell.swift */; };
+		5CBA19A528DC56C700D1FAC8 /* RecentCallTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CBA19A328DC56C700D1FAC8 /* RecentCallTableViewCell.xib */; };
+		5CBD66F42941768200B1FB7A /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBD66F22941768200B1FB7A /* VideoTableViewCell.swift */; };
+		5CBD66F62941768200B1FB7A /* VideoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CBD66F32941768200B1FB7A /* VideoTableViewCell.xib */; };
+		5CBD6700294308B100B1FB7A /* DisconnectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBD66FE294308B100B1FB7A /* DisconnectViewController.swift */; };
+		5CBD6702294308B100B1FB7A /* DisconnectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CBD66FF294308B100B1FB7A /* DisconnectViewController.xib */; };
+		5CBD67062943108900B1FB7A /* DisconnectTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBD67042943108900B1FB7A /* DisconnectTableViewCell.swift */; };
+		5CBD67082943108900B1FB7A /* DisconnectTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CBD67052943108900B1FB7A /* DisconnectTableViewCell.xib */; };
+		5CBDF01128DD3E40004F6AF6 /* CallOnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBDF00F28DD3E40004F6AF6 /* CallOnViewController.swift */; };
+		5CBDF01228DD3E40004F6AF6 /* CallOnViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CBDF01028DD3E40004F6AF6 /* CallOnViewController.xib */; };
+		5CBDF01528DF130D004F6AF6 /* PermissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBDF01328DF130D004F6AF6 /* PermissionViewController.swift */; };
+		5CBDF01628DF130D004F6AF6 /* PermissionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CBDF01428DF130D004F6AF6 /* PermissionViewController.xib */; };
+		5CC57F27293EE85B00D3FA44 /* AudioTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC57F25293EE85B00D3FA44 /* AudioTableViewCell.swift */; };
+		5CC57F29293EE85B00D3FA44 /* AudioTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CC57F26293EE85B00D3FA44 /* AudioTableViewCell.xib */; };
+		5CD1D73528F2781800F3D132 /* EditContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD1D73328F2781800F3D132 /* EditContactsViewController.swift */; };
+		5CD1D73628F2781800F3D132 /* EditContactsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CD1D73428F2781800F3D132 /* EditContactsViewController.xib */; };
+		5CD1D74128F43A9E00F3D132 /* SettingViewCtrl.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CD1D73F28F43A9E00F3D132 /* SettingViewCtrl.xib */; };
+		5CDAA18928FD0773004E7457 /* InfoCallTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAA18728FD0773004E7457 /* InfoCallTableViewCell.swift */; };
+		5CDAA18A28FD0773004E7457 /* InfoCallTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CDAA18828FD0773004E7457 /* InfoCallTableViewCell.xib */; };
+		5CE970F62A333F1B00057882 /* NSLanguageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE970F52A333F1B00057882 /* NSLanguageManager.swift */; };
+		5CED663F299B98CE006A06BA /* NHVoipCallType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CED663E299B98CE006A06BA /* NHVoipCallType.swift */; };
+		5CEDC824291BA5A2003743AB /* PowerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEDC822291BA5A2003743AB /* PowerViewController.swift */; };
+		5CEDC825291BA5A2003743AB /* PowerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CEDC823291BA5A2003743AB /* PowerViewController.xib */; };
+		BA1490902D6C797D16CAB1FB /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
+		C720F64D29076F0500EBDEF7 /* DateEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = C720F64C29076F0500EBDEF7 /* DateEx.swift */; };
+		C720F64F2907746000EBDEF7 /* PublicTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = C720F64E2907746000EBDEF7 /* PublicTool.swift */; };
+		C720F6522907786500EBDEF7 /* NHNavigationCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C720F6512907786500EBDEF7 /* NHNavigationCtrl.swift */; };
+		C720F6552907801200EBDEF7 /* ColorEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = C720F6542907801200EBDEF7 /* ColorEx.swift */; };
+		C720F6592907812C00EBDEF7 /* ColorStandards.swift in Sources */ = {isa = PBXBuildFile; fileRef = C720F6572907812C00EBDEF7 /* ColorStandards.swift */; };
+		C720F65A2907812C00EBDEF7 /* FontStandards.swift in Sources */ = {isa = PBXBuildFile; fileRef = C720F6582907812C00EBDEF7 /* FontStandards.swift */; };
+		C75206AB28D4279E00EB7833 /* NHVoipAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75206AA28D4279E00EB7833 /* NHVoipAccount.swift */; };
+		C75206AD28D427AF00EB7833 /* NHVoipManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75206AC28D427AF00EB7833 /* NHVoipManager.swift */; };
+		C75206AF28D444AE00EB7833 /* NHVoipConfigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75206AE28D444AE00EB7833 /* NHVoipConfigure.swift */; };
+		C7732CC928B5CE7A00F62FAD /* CallingViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7732CC728B5CE7A00F62FAD /* CallingViewCtrl.swift */; };
+		C7732CCD28B600D600F62FAD /* VideoSettingViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7732CCB28B600D600F62FAD /* VideoSettingViewCtrl.swift */; };
+		C7732CCE28B600D600F62FAD /* VideoSettingViewCtrl.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7732CCC28B600D600F62FAD /* VideoSettingViewCtrl.xib */; };
+		C7732CD128B6017500F62FAD /* AudioSettingViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7732CCF28B6017500F62FAD /* AudioSettingViewCtrl.swift */; };
+		C7732CD228B6017500F62FAD /* AudioSettingViewCtrl.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7732CD028B6017500F62FAD /* AudioSettingViewCtrl.xib */; };
+		C7D1274628B470BB00DBF0FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D1274528B470BB00DBF0FD /* AppDelegate.swift */; };
+		C7D1274F28B470BD00DBF0FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7D1274E28B470BD00DBF0FD /* Assets.xcassets */; };
+		C7D1275228B470BD00DBF0FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7D1275028B470BD00DBF0FD /* LaunchScreen.storyboard */; };
+		C7D1276128B4BA7C00DBF0FD /* RecordsViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D1275F28B4BA7C00DBF0FD /* RecordsViewCtrl.swift */; };
+		C7D1276228B4BA7C00DBF0FD /* RecordsViewCtrl.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7D1276028B4BA7C00DBF0FD /* RecordsViewCtrl.xib */; };
+		C7D1276828B4BB1100DBF0FD /* DevicesViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D1276628B4BB1100DBF0FD /* DevicesViewCtrl.swift */; };
+		C7D1276928B4BB1100DBF0FD /* DevicesViewCtrl.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7D1276728B4BB1100DBF0FD /* DevicesViewCtrl.xib */; };
+		C7D1276C28B4BB2200DBF0FD /* SettingViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D1276A28B4BB2200DBF0FD /* SettingViewCtrl.swift */; };
+		C7D1277028B4BBB600DBF0FD /* NHTabBarCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D1276E28B4BBB600DBF0FD /* NHTabBarCtrl.swift */; };
+		C7D1277128B4BBB600DBF0FD /* NHTabBarCtrl.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7D1276F28B4BBB600DBF0FD /* NHTabBarCtrl.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D0CECA09901A199ADB6715F /* Pods-NEXcom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NEXcom.debug.xcconfig"; path = "Target Support Files/Pods-NEXcom/Pods-NEXcom.debug.xcconfig"; sourceTree = "<group>"; };
+		26D57FDAFEC6138F901CD492 /* Pods-NEXcom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NEXcom.release.xcconfig"; path = "Target Support Files/Pods-NEXcom/Pods-NEXcom.release.xcconfig"; sourceTree = "<group>"; };
+		512C11AF5DD4DA158629D54C /* Pods_NEXcom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NEXcom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C04ADCA290288FC00D391B9 /* NHVoipRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NHVoipRequest.swift; sourceTree = "<group>"; };
+		5C16B99428E2874E0054C5B1 /* ConInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConInfoViewController.swift; sourceTree = "<group>"; };
+		5C16B99528E2874E0054C5B1 /* ConInfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConInfoViewController.xib; sourceTree = "<group>"; };
+		5C3972F428D17152005C3835 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5C3972F528D17152005C3835 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		5C3972F828D17367005C3835 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		5C3972F928D17367005C3835 /* AboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
+		5C3972FB28D17367005C3835 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		5C3972FD28D17367005C3835 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		5C39730428D1E33E005C3835 /* SIPSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIPSettingViewController.swift; sourceTree = "<group>"; };
+		5C39730528D1E33E005C3835 /* SIPSettingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SIPSettingViewController.xib; sourceTree = "<group>"; };
+		5C3ED0382910CF6E001054DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5C3ED03C2910D292001054DB /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		5C3ED03D2910D292001054DB /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		5C5294B329C4693C00EABDCC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5C5294B529C4697100EABDCC /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		5C5294B629C4697300EABDCC /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		5C5294B729C4697400EABDCC /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		5C61278F29AC4279004A15ED /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		5CAB6C0228F26C14001EE864 /* ContactsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewCell.swift; sourceTree = "<group>"; };
+		5CAB6C0328F26C14001EE864 /* ContactsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactsTableViewCell.xib; sourceTree = "<group>"; };
+		5CAB6C0628F2760E001EE864 /* AddContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddContactsViewController.swift; sourceTree = "<group>"; };
+		5CAB6C0728F2760E001EE864 /* AddContactsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddContactsViewController.xib; sourceTree = "<group>"; };
+		5CB1C51B2A67904900FC5142 /* ring.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = ring.wav; path = ../ring.wav; sourceTree = "<group>"; };
+		5CBA197428D463D500D1FAC8 /* SetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetTableViewCell.swift; sourceTree = "<group>"; };
+		5CBA197528D463D500D1FAC8 /* SetTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SetTableViewCell.xib; sourceTree = "<group>"; };
+		5CBA197828D48D4900D1FAC8 /* NHVoipCallEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NHVoipCallEx.swift; sourceTree = "<group>"; };
+		5CBA197A28D7FD1600D1FAC8 /* NEXcom-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NEXcom-Bridging-Header.h"; sourceTree = "<group>"; };
+		5CBA197B28D7FD1600D1FAC8 /* NEXcom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NEXcom.m; sourceTree = "<group>"; };
+		5CBA198028D8055A00D1FAC8 /* FMDBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMDBManager.swift; sourceTree = "<group>"; };
+		5CBA198628D83FBB00D1FAC8 /* TypeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeTableViewCell.swift; sourceTree = "<group>"; };
+		5CBA198728D83FBB00D1FAC8 /* TypeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TypeTableViewCell.xib; sourceTree = "<group>"; };
+		5CBA198A28D95C9600D1FAC8 /* SIPSet1TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIPSet1TableViewCell.swift; sourceTree = "<group>"; };
+		5CBA198B28D95C9600D1FAC8 /* SIPSet1TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SIPSet1TableViewCell.xib; sourceTree = "<group>"; };
+		5CBA198E28D95CE700D1FAC8 /* SIPSet2TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIPSet2TableViewCell.swift; sourceTree = "<group>"; };
+		5CBA198F28D95CE700D1FAC8 /* SIPSet2TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SIPSet2TableViewCell.xib; sourceTree = "<group>"; };
+		5CBA199228D95CFC00D1FAC8 /* SIPSet3TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIPSet3TableViewCell.swift; sourceTree = "<group>"; };
+		5CBA199328D95CFC00D1FAC8 /* SIPSet3TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SIPSet3TableViewCell.xib; sourceTree = "<group>"; };
+		5CBA199628D9A47A00D1FAC8 /* CallOutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallOutViewController.swift; sourceTree = "<group>"; };
+		5CBA199728D9A47A00D1FAC8 /* CallOutViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CallOutViewController.xib; sourceTree = "<group>"; };
+		5CBA199B28DAF11600D1FAC8 /* StringEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringEx.swift; sourceTree = "<group>"; };
+		5CBA19A228DC56C700D1FAC8 /* RecentCallTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentCallTableViewCell.swift; sourceTree = "<group>"; };
+		5CBA19A328DC56C700D1FAC8 /* RecentCallTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecentCallTableViewCell.xib; sourceTree = "<group>"; };
+		5CBD66F22941768200B1FB7A /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
+		5CBD66F32941768200B1FB7A /* VideoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoTableViewCell.xib; sourceTree = "<group>"; };
+		5CBD66FE294308B100B1FB7A /* DisconnectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisconnectViewController.swift; sourceTree = "<group>"; };
+		5CBD66FF294308B100B1FB7A /* DisconnectViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DisconnectViewController.xib; sourceTree = "<group>"; };
+		5CBD67042943108900B1FB7A /* DisconnectTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisconnectTableViewCell.swift; sourceTree = "<group>"; };
+		5CBD67052943108900B1FB7A /* DisconnectTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DisconnectTableViewCell.xib; sourceTree = "<group>"; };
+		5CBDF00F28DD3E40004F6AF6 /* CallOnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallOnViewController.swift; sourceTree = "<group>"; };
+		5CBDF01028DD3E40004F6AF6 /* CallOnViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CallOnViewController.xib; sourceTree = "<group>"; };
+		5CBDF01328DF130D004F6AF6 /* PermissionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionViewController.swift; sourceTree = "<group>"; };
+		5CBDF01428DF130D004F6AF6 /* PermissionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PermissionViewController.xib; sourceTree = "<group>"; };
+		5CC312ED29530D8A00372650 /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		5CC312EE29530D8A00372650 /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		5CC312EF29530DBF00372650 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		5CC312F029530DC000372650 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		5CC57F25293EE85B00D3FA44 /* AudioTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioTableViewCell.swift; sourceTree = "<group>"; };
+		5CC57F26293EE85B00D3FA44 /* AudioTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AudioTableViewCell.xib; sourceTree = "<group>"; };
+		5CD1D73328F2781800F3D132 /* EditContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditContactsViewController.swift; sourceTree = "<group>"; };
+		5CD1D73428F2781800F3D132 /* EditContactsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditContactsViewController.xib; sourceTree = "<group>"; };
+		5CD1D73F28F43A9E00F3D132 /* SettingViewCtrl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingViewCtrl.xib; sourceTree = "<group>"; };
+		5CDAA18728FD0773004E7457 /* InfoCallTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoCallTableViewCell.swift; sourceTree = "<group>"; };
+		5CDAA18828FD0773004E7457 /* InfoCallTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoCallTableViewCell.xib; sourceTree = "<group>"; };
+		5CDAA18B29014CA7004E7457 /* NEXcom.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NEXcom.entitlements; sourceTree = "<group>"; };
+		5CE970F52A333F1B00057882 /* NSLanguageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSLanguageManager.swift; sourceTree = "<group>"; };
+		5CED663E299B98CE006A06BA /* NHVoipCallType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NHVoipCallType.swift; sourceTree = "<group>"; };
+		5CEDC822291BA5A2003743AB /* PowerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerViewController.swift; sourceTree = "<group>"; };
+		5CEDC823291BA5A2003743AB /* PowerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PowerViewController.xib; sourceTree = "<group>"; };
+		C720F64C29076F0500EBDEF7 /* DateEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateEx.swift; sourceTree = "<group>"; };
+		C720F64E2907746000EBDEF7 /* PublicTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicTool.swift; sourceTree = "<group>"; };
+		C720F6512907786500EBDEF7 /* NHNavigationCtrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NHNavigationCtrl.swift; sourceTree = "<group>"; };
+		C720F6542907801200EBDEF7 /* ColorEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorEx.swift; sourceTree = "<group>"; };
+		C720F6572907812C00EBDEF7 /* ColorStandards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorStandards.swift; sourceTree = "<group>"; };
+		C720F6582907812C00EBDEF7 /* FontStandards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontStandards.swift; sourceTree = "<group>"; };
+		C75206AA28D4279E00EB7833 /* NHVoipAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NHVoipAccount.swift; sourceTree = "<group>"; };
+		C75206AC28D427AF00EB7833 /* NHVoipManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NHVoipManager.swift; sourceTree = "<group>"; };
+		C75206AE28D444AE00EB7833 /* NHVoipConfigure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NHVoipConfigure.swift; sourceTree = "<group>"; };
+		C7732CC728B5CE7A00F62FAD /* CallingViewCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallingViewCtrl.swift; sourceTree = "<group>"; };
+		C7732CC828B5CE7A00F62FAD /* CallingViewCtrl.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CallingViewCtrl.xib; sourceTree = "<group>"; };
+		C7732CCB28B600D600F62FAD /* VideoSettingViewCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoSettingViewCtrl.swift; sourceTree = "<group>"; };
+		C7732CCC28B600D600F62FAD /* VideoSettingViewCtrl.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoSettingViewCtrl.xib; sourceTree = "<group>"; };
+		C7732CCF28B6017500F62FAD /* AudioSettingViewCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioSettingViewCtrl.swift; sourceTree = "<group>"; };
+		C7732CD028B6017500F62FAD /* AudioSettingViewCtrl.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AudioSettingViewCtrl.xib; sourceTree = "<group>"; };
+		C7D1274228B470BB00DBF0FD /* NEXcom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NEXcom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7D1274528B470BB00DBF0FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C7D1274E28B470BD00DBF0FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7D1275128B470BD00DBF0FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C7D1275328B470BD00DBF0FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7D1275F28B4BA7C00DBF0FD /* RecordsViewCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsViewCtrl.swift; sourceTree = "<group>"; };
+		C7D1276028B4BA7C00DBF0FD /* RecordsViewCtrl.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecordsViewCtrl.xib; sourceTree = "<group>"; };
+		C7D1276628B4BB1100DBF0FD /* DevicesViewCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesViewCtrl.swift; sourceTree = "<group>"; };
+		C7D1276728B4BB1100DBF0FD /* DevicesViewCtrl.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DevicesViewCtrl.xib; sourceTree = "<group>"; };
+		C7D1276A28B4BB2200DBF0FD /* SettingViewCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewCtrl.swift; sourceTree = "<group>"; };
+		C7D1276E28B4BBB600DBF0FD /* NHTabBarCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NHTabBarCtrl.swift; sourceTree = "<group>"; };
+		C7D1276F28B4BBB600DBF0FD /* NHTabBarCtrl.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NHTabBarCtrl.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7D1273F28B470BB00DBF0FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA1490902D6C797D16CAB1FB /* BuildFile in Frameworks */,
+				55FD6EB6F3700E78A1187B22 /* Pods_NEXcom.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CBA197F28D803A800D1FAC8 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				5CBA198028D8055A00D1FAC8 /* FMDBManager.swift */,
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		5CBA199A28DAF11600D1FAC8 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				C720F6562907812000EBDEF7 /* AppSettings */,
+				5CBA199B28DAF11600D1FAC8 /* StringEx.swift */,
+				C720F64C29076F0500EBDEF7 /* DateEx.swift */,
+				C720F64E2907746000EBDEF7 /* PublicTool.swift */,
+				C720F6542907801200EBDEF7 /* ColorEx.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		5CBA199D28DC446200D1FAC8 /* Begin */ = {
+			isa = PBXGroup;
+			children = (
+				5C3972F828D17367005C3835 /* FirstViewController.swift */,
+				5C3972FB28D17367005C3835 /* FirstViewController.xib */,
+				5C3972F428D17152005C3835 /* LoginViewController.swift */,
+				5C3972F528D17152005C3835 /* LoginViewController.xib */,
+			);
+			path = Begin;
+			sourceTree = "<group>";
+		};
+		69D28E96E7EB35D507F40698 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D0CECA09901A199ADB6715F /* Pods-NEXcom.debug.xcconfig */,
+				26D57FDAFEC6138F901CD492 /* Pods-NEXcom.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C720F650290776A200EBDEF7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5CBA197428D463D500D1FAC8 /* SetTableViewCell.swift */,
+				5CBA197528D463D500D1FAC8 /* SetTableViewCell.xib */,
+				5CBA198A28D95C9600D1FAC8 /* SIPSet1TableViewCell.swift */,
+				5CBA198B28D95C9600D1FAC8 /* SIPSet1TableViewCell.xib */,
+				5CBA198E28D95CE700D1FAC8 /* SIPSet2TableViewCell.swift */,
+				5CBA198F28D95CE700D1FAC8 /* SIPSet2TableViewCell.xib */,
+				5CBA199328D95CFC00D1FAC8 /* SIPSet3TableViewCell.xib */,
+				5CBA199228D95CFC00D1FAC8 /* SIPSet3TableViewCell.swift */,
+				5CC57F25293EE85B00D3FA44 /* AudioTableViewCell.swift */,
+				5CC57F26293EE85B00D3FA44 /* AudioTableViewCell.xib */,
+				5CBD66F22941768200B1FB7A /* VideoTableViewCell.swift */,
+				5CBD66F32941768200B1FB7A /* VideoTableViewCell.xib */,
+				5CBD67042943108900B1FB7A /* DisconnectTableViewCell.swift */,
+				5CBD67052943108900B1FB7A /* DisconnectTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C720F65329077D3500EBDEF7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5CBA198628D83FBB00D1FAC8 /* TypeTableViewCell.swift */,
+				5CBA198728D83FBB00D1FAC8 /* TypeTableViewCell.xib */,
+				5CAB6C0228F26C14001EE864 /* ContactsTableViewCell.swift */,
+				5CAB6C0328F26C14001EE864 /* ContactsTableViewCell.xib */,
+				5CDAA18728FD0773004E7457 /* InfoCallTableViewCell.swift */,
+				5CDAA18828FD0773004E7457 /* InfoCallTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C720F6562907812000EBDEF7 /* AppSettings */ = {
+			isa = PBXGroup;
+			children = (
+				5C61278F29AC4279004A15ED /* data.json */,
+				C720F6572907812C00EBDEF7 /* ColorStandards.swift */,
+				C720F6582907812C00EBDEF7 /* FontStandards.swift */,
+				5C3ED0392910CF6E001054DB /* Localizable.strings */,
+				5C5294B429C4693C00EABDCC /* InfoPlist.strings */,
+			);
+			path = AppSettings;
+			sourceTree = "<group>";
+		};
+		C75206A728D4274700EB7833 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				5CE970F52A333F1B00057882 /* NSLanguageManager.swift */,
+				5CBA197828D48D4900D1FAC8 /* NHVoipCallEx.swift */,
+				C75206AA28D4279E00EB7833 /* NHVoipAccount.swift */,
+				C75206AC28D427AF00EB7833 /* NHVoipManager.swift */,
+				C75206AE28D444AE00EB7833 /* NHVoipConfigure.swift */,
+				5C04ADCA290288FC00D391B9 /* NHVoipRequest.swift */,
+				5CED663E299B98CE006A06BA /* NHVoipCallType.swift */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		C7732CC628B4CF9A00F62FAD /* Call */ = {
+			isa = PBXGroup;
+			children = (
+				C7732CC728B5CE7A00F62FAD /* CallingViewCtrl.swift */,
+				C7732CC828B5CE7A00F62FAD /* CallingViewCtrl.xib */,
+				5CBA199628D9A47A00D1FAC8 /* CallOutViewController.swift */,
+				5CBA199728D9A47A00D1FAC8 /* CallOutViewController.xib */,
+				5CBDF00F28DD3E40004F6AF6 /* CallOnViewController.swift */,
+				5CBDF01028DD3E40004F6AF6 /* CallOnViewController.xib */,
+			);
+			path = Call;
+			sourceTree = "<group>";
+		};
+		C7D1273928B470BB00DBF0FD = {
+			isa = PBXGroup;
+			children = (
+				C7D1274428B470BB00DBF0FD /* NEXcom */,
+				C7D1274328B470BB00DBF0FD /* Products */,
+				69D28E96E7EB35D507F40698 /* Pods */,
+				D0DB7D019821C487A02C2FBC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C7D1274328B470BB00DBF0FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7D1274228B470BB00DBF0FD /* NEXcom.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7D1274428B470BB00DBF0FD /* NEXcom */ = {
+			isa = PBXGroup;
+			children = (
+				5CDAA18B29014CA7004E7457 /* NEXcom.entitlements */,
+				5CBA199A28DAF11600D1FAC8 /* Utility */,
+				5CBA197F28D803A800D1FAC8 /* DataBase */,
+				C75206A728D4274700EB7833 /* SDK */,
+				C7732CC628B4CF9A00F62FAD /* Call */,
+				C7D1276528B4BAB800DBF0FD /* Setting */,
+				C7D1276428B4BA8C00DBF0FD /* Devices */,
+				C7D1276328B4BA8100DBF0FD /* Records */,
+				5CBA199D28DC446200D1FAC8 /* Begin */,
+				C7D1274528B470BB00DBF0FD /* AppDelegate.swift */,
+				C7D1274E28B470BD00DBF0FD /* Assets.xcassets */,
+				C7D1275028B470BD00DBF0FD /* LaunchScreen.storyboard */,
+				C7D1275328B470BD00DBF0FD /* Info.plist */,
+				5CB1C51B2A67904900FC5142 /* ring.wav */,
+				C7D1276F28B4BBB600DBF0FD /* NHTabBarCtrl.xib */,
+				C7D1276E28B4BBB600DBF0FD /* NHTabBarCtrl.swift */,
+				C720F6512907786500EBDEF7 /* NHNavigationCtrl.swift */,
+				5CBA197B28D7FD1600D1FAC8 /* NEXcom.m */,
+				5CBA197A28D7FD1600D1FAC8 /* NEXcom-Bridging-Header.h */,
+			);
+			path = NEXcom;
+			sourceTree = "<group>";
+		};
+		C7D1276328B4BA8100DBF0FD /* Records */ = {
+			isa = PBXGroup;
+			children = (
+				C7D1275F28B4BA7C00DBF0FD /* RecordsViewCtrl.swift */,
+				C7D1276028B4BA7C00DBF0FD /* RecordsViewCtrl.xib */,
+				5CBA19A228DC56C700D1FAC8 /* RecentCallTableViewCell.swift */,
+				5CBA19A328DC56C700D1FAC8 /* RecentCallTableViewCell.xib */,
+			);
+			path = Records;
+			sourceTree = "<group>";
+		};
+		C7D1276428B4BA8C00DBF0FD /* Devices */ = {
+			isa = PBXGroup;
+			children = (
+				C720F65329077D3500EBDEF7 /* Views */,
+				C7D1276628B4BB1100DBF0FD /* DevicesViewCtrl.swift */,
+				C7D1276728B4BB1100DBF0FD /* DevicesViewCtrl.xib */,
+				5CD1D73328F2781800F3D132 /* EditContactsViewController.swift */,
+				5CD1D73428F2781800F3D132 /* EditContactsViewController.xib */,
+				5CAB6C0628F2760E001EE864 /* AddContactsViewController.swift */,
+				5CAB6C0728F2760E001EE864 /* AddContactsViewController.xib */,
+				5C16B99428E2874E0054C5B1 /* ConInfoViewController.swift */,
+				5C16B99528E2874E0054C5B1 /* ConInfoViewController.xib */,
+			);
+			path = Devices;
+			sourceTree = "<group>";
+		};
+		C7D1276528B4BAB800DBF0FD /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				C720F650290776A200EBDEF7 /* Views */,
+				C7D1276A28B4BB2200DBF0FD /* SettingViewCtrl.swift */,
+				5CD1D73F28F43A9E00F3D132 /* SettingViewCtrl.xib */,
+				C7732CCB28B600D600F62FAD /* VideoSettingViewCtrl.swift */,
+				C7732CCC28B600D600F62FAD /* VideoSettingViewCtrl.xib */,
+				C7732CCF28B6017500F62FAD /* AudioSettingViewCtrl.swift */,
+				C7732CD028B6017500F62FAD /* AudioSettingViewCtrl.xib */,
+				5C39730428D1E33E005C3835 /* SIPSettingViewController.swift */,
+				5C39730528D1E33E005C3835 /* SIPSettingViewController.xib */,
+				5C3972FD28D17367005C3835 /* AboutViewController.swift */,
+				5C3972F928D17367005C3835 /* AboutViewController.xib */,
+				5CBDF01328DF130D004F6AF6 /* PermissionViewController.swift */,
+				5CBDF01428DF130D004F6AF6 /* PermissionViewController.xib */,
+				5CEDC822291BA5A2003743AB /* PowerViewController.swift */,
+				5CEDC823291BA5A2003743AB /* PowerViewController.xib */,
+				5CBD66FE294308B100B1FB7A /* DisconnectViewController.swift */,
+				5CBD66FF294308B100B1FB7A /* DisconnectViewController.xib */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		D0DB7D019821C487A02C2FBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				512C11AF5DD4DA158629D54C /* Pods_NEXcom.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7D1274128B470BB00DBF0FD /* NEXcom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7D1275628B470BD00DBF0FD /* Build configuration list for PBXNativeTarget "NEXcom" */;
+			buildPhases = (
+				62F1493AA7534A993988B311 /* [CP] Check Pods Manifest.lock */,
+				C7D1273E28B470BB00DBF0FD /* Sources */,
+				C7D1273F28B470BB00DBF0FD /* Frameworks */,
+				C7D1274028B470BB00DBF0FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NEXcom;
+			productName = NEXcom;
+			productReference = C7D1274228B470BB00DBF0FD /* NEXcom.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7D1273A28B470BB00DBF0FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					C7D1274128B470BB00DBF0FD = {
+						CreatedOnToolsVersion = 13.2;
+						LastSwiftMigration = 1340;
+					};
+				};
+			};
+			buildConfigurationList = C7D1273D28B470BB00DBF0FD /* Build configuration list for PBXProject "NEXcom" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+				"zh-HK",
+				"zh-Hant",
+			);
+			mainGroup = C7D1273928B470BB00DBF0FD;
+			productRefGroup = C7D1274328B470BB00DBF0FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7D1274128B470BB00DBF0FD /* NEXcom */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7D1274028B470BB00DBF0FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CBA199928D9A47A00D1FAC8 /* CallOutViewController.xib in Resources */,
+				5CAB6C0528F26C14001EE864 /* ContactsTableViewCell.xib in Resources */,
+				5CD1D73628F2781800F3D132 /* EditContactsViewController.xib in Resources */,
+				5C16B99728E2874E0054C5B1 /* ConInfoViewController.xib in Resources */,
+				5CDAA18A28FD0773004E7457 /* InfoCallTableViewCell.xib in Resources */,
+				5CBA198D28D95C9600D1FAC8 /* SIPSet1TableViewCell.xib in Resources */,
+				5CEDC825291BA5A2003743AB /* PowerViewController.xib in Resources */,
+				C7732CCE28B600D600F62FAD /* VideoSettingViewCtrl.xib in Resources */,
+				5CBA198928D83FBB00D1FAC8 /* TypeTableViewCell.xib in Resources */,
+				C7D1276928B4BB1100DBF0FD /* DevicesViewCtrl.xib in Resources */,
+				5CBA199528D95CFC00D1FAC8 /* SIPSet3TableViewCell.xib in Resources */,
+				5CBA199128D95CE700D1FAC8 /* SIPSet2TableViewCell.xib in Resources */,
+				5CBA197728D463D500D1FAC8 /* SetTableViewCell.xib in Resources */,
+				5CD1D74128F43A9E00F3D132 /* SettingViewCtrl.xib in Resources */,
+				5C39730128D17367005C3835 /* FirstViewController.xib in Resources */,
+				C7732CD228B6017500F62FAD /* AudioSettingViewCtrl.xib in Resources */,
+				5C3972F728D17152005C3835 /* LoginViewController.xib in Resources */,
+				5C39730728D1E33E005C3835 /* SIPSettingViewController.xib in Resources */,
+				5C3ED0372910CF6E001054DB /* Localizable.strings in Resources */,
+				C7D1275228B470BD00DBF0FD /* LaunchScreen.storyboard in Resources */,
+				C7D1277128B4BBB600DBF0FD /* NHTabBarCtrl.xib in Resources */,
+				C7D1276228B4BA7C00DBF0FD /* RecordsViewCtrl.xib in Resources */,
+				5CBD6702294308B100B1FB7A /* DisconnectViewController.xib in Resources */,
+				5CBD66F62941768200B1FB7A /* VideoTableViewCell.xib in Resources */,
+				5CB1C51C2A67904900FC5142 /* ring.wav in Resources */,
+				5CAB6C0928F2760E001EE864 /* AddContactsViewController.xib in Resources */,
+				5CBA19A528DC56C700D1FAC8 /* RecentCallTableViewCell.xib in Resources */,
+				5CC57F29293EE85B00D3FA44 /* AudioTableViewCell.xib in Resources */,
+				5C61279029AC4279004A15ED /* data.json in Resources */,
+				5CBDF01228DD3E40004F6AF6 /* CallOnViewController.xib in Resources */,
+				5C5294B129C4693C00EABDCC /* InfoPlist.strings in Resources */,
+				5CBDF01628DF130D004F6AF6 /* PermissionViewController.xib in Resources */,
+				5CBD67082943108900B1FB7A /* DisconnectTableViewCell.xib in Resources */,
+				5C104DD5291F77AF000D2CD8 /* CallingViewCtrl.xib in Resources */,
+				5C3972FF28D17367005C3835 /* AboutViewController.xib in Resources */,
+				C7D1274F28B470BD00DBF0FD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		62F1493AA7534A993988B311 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NEXcom-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7D1273E28B470BB00DBF0FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CBDF01128DD3E40004F6AF6 /* CallOnViewController.swift in Sources */,
+				5CBDF01528DF130D004F6AF6 /* PermissionViewController.swift in Sources */,
+				C720F65A2907812C00EBDEF7 /* FontStandards.swift in Sources */,
+				C7D1274628B470BB00DBF0FD /* AppDelegate.swift in Sources */,
+				5CBD67062943108900B1FB7A /* DisconnectTableViewCell.swift in Sources */,
+				5CBA197628D463D500D1FAC8 /* SetTableViewCell.swift in Sources */,
+				5CBD66F42941768200B1FB7A /* VideoTableViewCell.swift in Sources */,
+				5CBD6700294308B100B1FB7A /* DisconnectViewController.swift in Sources */,
+				5CDAA18928FD0773004E7457 /* InfoCallTableViewCell.swift in Sources */,
+				5C3972F628D17152005C3835 /* LoginViewController.swift in Sources */,
+				5CBA198128D8055A00D1FAC8 /* FMDBManager.swift in Sources */,
+				5CC57F27293EE85B00D3FA44 /* AudioTableViewCell.swift in Sources */,
+				C720F64F2907746000EBDEF7 /* PublicTool.swift in Sources */,
+				5C16B99628E2874E0054C5B1 /* ConInfoViewController.swift in Sources */,
+				C7732CC928B5CE7A00F62FAD /* CallingViewCtrl.swift in Sources */,
+				5CBA199428D95CFC00D1FAC8 /* SIPSet3TableViewCell.swift in Sources */,
+				C75206AB28D4279E00EB7833 /* NHVoipAccount.swift in Sources */,
+				5CAB6C0828F2760E001EE864 /* AddContactsViewController.swift in Sources */,
+				C7D1276C28B4BB2200DBF0FD /* SettingViewCtrl.swift in Sources */,
+				5CED663F299B98CE006A06BA /* NHVoipCallType.swift in Sources */,
+				5CE970F62A333F1B00057882 /* NSLanguageManager.swift in Sources */,
+				C7D1276828B4BB1100DBF0FD /* DevicesViewCtrl.swift in Sources */,
+				5CBA197C28D7FD1600D1FAC8 /* NEXcom.m in Sources */,
+				5C04ADCB290288FC00D391B9 /* NHVoipRequest.swift in Sources */,
+				5CBA199828D9A47A00D1FAC8 /* CallOutViewController.swift in Sources */,
+				C7732CD128B6017500F62FAD /* AudioSettingViewCtrl.swift in Sources */,
+				C720F6552907801200EBDEF7 /* ColorEx.swift in Sources */,
+				5CAB6C0428F26C14001EE864 /* ContactsTableViewCell.swift in Sources */,
+				5CEDC824291BA5A2003743AB /* PowerViewController.swift in Sources */,
+				C720F6522907786500EBDEF7 /* NHNavigationCtrl.swift in Sources */,
+				5CD1D73528F2781800F3D132 /* EditContactsViewController.swift in Sources */,
+				5CBA197928D48D4900D1FAC8 /* NHVoipCallEx.swift in Sources */,
+				C720F64D29076F0500EBDEF7 /* DateEx.swift in Sources */,
+				C720F6592907812C00EBDEF7 /* ColorStandards.swift in Sources */,
+				C7D1276128B4BA7C00DBF0FD /* RecordsViewCtrl.swift in Sources */,
+				5CBA199C28DAF11600D1FAC8 /* StringEx.swift in Sources */,
+				C7732CCD28B600D600F62FAD /* VideoSettingViewCtrl.swift in Sources */,
+				C75206AD28D427AF00EB7833 /* NHVoipManager.swift in Sources */,
+				5CBA198C28D95C9600D1FAC8 /* SIPSet1TableViewCell.swift in Sources */,
+				5C39730328D17367005C3835 /* AboutViewController.swift in Sources */,
+				5CBA199028D95CE700D1FAC8 /* SIPSet2TableViewCell.swift in Sources */,
+				5C39730628D1E33E005C3835 /* SIPSettingViewController.swift in Sources */,
+				C7D1277028B4BBB600DBF0FD /* NHTabBarCtrl.swift in Sources */,
+				C75206AF28D444AE00EB7833 /* NHVoipConfigure.swift in Sources */,
+				5C3972FE28D17367005C3835 /* FirstViewController.swift in Sources */,
+				5CBA19A428DC56C700D1FAC8 /* RecentCallTableViewCell.swift in Sources */,
+				5CBA198828D83FBB00D1FAC8 /* TypeTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5C3ED0392910CF6E001054DB /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C3ED0382910CF6E001054DB /* en */,
+				5C3ED03D2910D292001054DB /* zh-Hans */,
+				5CC312EE29530D8A00372650 /* zh-HK */,
+				5CC312F029530DC000372650 /* zh-Hant */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		5C5294B429C4693C00EABDCC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C5294B329C4693C00EABDCC /* en */,
+				5C5294B529C4697100EABDCC /* zh-HK */,
+				5C5294B629C4697300EABDCC /* zh-Hans */,
+				5C5294B729C4697400EABDCC /* zh-Hant */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C7D1275028B470BD00DBF0FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7D1275128B470BD00DBF0FD /* Base */,
+				5C3ED03C2910D292001054DB /* zh-Hans */,
+				5CC312ED29530D8A00372650 /* zh-HK */,
+				5CC312EF29530DBF00372650 /* zh-Hant */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7D1275428B470BD00DBF0FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C7D1275528B470BD00DBF0FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7D1275728B470BD00DBF0FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D0CECA09901A199ADB6715F /* Pods-NEXcom.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = NEXcom/NEXcom.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development: liang luo (9GGP9K29S8)";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2303241;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 83632RYXWQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NEXcom/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "NEXcom测试";
+				INFOPLIST_KEY_NSCameraUsageDescription = "需要访问您的相机使用权限";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "需要访问您的麦克风使用权限";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "";
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.starnet.nexcom.ent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = nexcomEntDev;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "NEXcom/NEXcom-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C7D1275828B470BD00DBF0FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26D57FDAFEC6138F901CD492 /* Pods-NEXcom.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = NEXcom/NEXcom.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2303241;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 83632RYXWQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NEXcom/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "NEXcom测试";
+				INFOPLIST_KEY_NSCameraUsageDescription = "需要访问您的相机使用权限";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "需要访问您的麦克风使用权限";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "";
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.starnet.nexcom.ent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = nexcomEntDev;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "NEXcom/NEXcom-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7D1273D28B470BB00DBF0FD /* Build configuration list for PBXProject "NEXcom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7D1275428B470BD00DBF0FD /* Debug */,
+				C7D1275528B470BD00DBF0FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7D1275628B470BD00DBF0FD /* Build configuration list for PBXNativeTarget "NEXcom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7D1275728B470BD00DBF0FD /* Debug */,
+				C7D1275828B470BD00DBF0FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7D1273A28B470BB00DBF0FD /* Project object */;
+}
